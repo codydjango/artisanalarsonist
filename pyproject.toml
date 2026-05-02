@@ -3,4 +3,7 @@ name = "artisanalarsonist"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.9"
-dependencies = []
+dependencies = [
+    "playwright>=1.43",
+    "httpx>=0.27",
+]
