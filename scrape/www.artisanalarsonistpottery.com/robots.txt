@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: /s/search
+Disallow: /s/cart/
+Disallow: /s/checkout/
+Disallow: /store/checkout
+Disallow: /store/status
+Disallow: /product/*/*/leave-review
+Crawl-delay: 5
+
+User-agent: Googlebot
+Disallow:
+User-agent: Googlebot-Image
+Disallow:
+
+Sitemap: https://www.artisanalarsonistpottery.com/sitemap.xml
+
